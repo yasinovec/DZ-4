@@ -59,7 +59,7 @@ trait Gps
     public function gps($gpsHours)
     {
         $itogo = $this->cenaGps = $this->cenaGps*$gpsHours*HOUR;
-        echo $itogo;//потом прибавить это к сумме
+        echo $itogo;
     }
 }
 trait Driver
