@@ -1,11 +1,8 @@
 <?php
 namespace Pochasovo;
 
-use Hours\iHours;
-use Tarifs\Tarifs;
-
-include 'Tarifs.php';
-include 'iHours.php';
+use Hours;
+use Tarifs;
 
 class Pochasovo extends Tarifs implements iHours
 
